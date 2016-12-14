@@ -1,7 +1,7 @@
 (function(window) {
     'use strict';
 
-    function Highwind() {
+    var Highwind = function() {
 
         /**
          * Define our main library object
@@ -28,7 +28,7 @@
          * Return library object
          */
         return Lib;
-    }
+    };
 
     /**
      * Create Highwind on window object
